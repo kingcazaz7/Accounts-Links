@@ -1,0 +1,72 @@
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:linear-gradient(140deg,green,blue);
+ color:white;
+ font-family:Arial,sans-serif;
+ text-align:center;
+ min-height:100vh;
+ padding:35px 18px;
+}
+
+.container{
+ max-width:420px;
+ margin:auto;
+}
+
+.logo img {
+ width:110px;
+ height:110px;
+ border:3px solid gold;
+ border-radius:50%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ margin:15px auto;
+ font-size:35px;
+ color:white;
+ font-weight:bold;
+ box-shadow:0 0 25px blue;
+ background:yellowgreen;
+}
+
+h1{color:#f5cc65;font-size:30px}
+p{color:#ccc}
+
+a{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ gap:13px;
+ text-decoration:none;
+ padding:17px;
+ margin:17px 0;
+ border-radius:15px;
+ font-weight:bold;
+ font-size:18px;
+ transition:.3s;
+}
+
+a:hover{transform:scale(1.05)}
+
+svg{width:28px;height:28px;fill:currentColor}
+
+.tiktok{
+ background:#201b0d;
+ color:#f5cc65;
+ border:1px solid gold;
+}
+
+.whatsapp{
+ background:#201b0d;
+ color:#f5cc65;
+ border:1px solid gold;
+}
+
+.other{
+ background:#201b0d;
+ color:#f5cc65;
+ border:1px solid gold;
+}
+
+footer{color:#999;margin-top:35px;font-size:12px}
